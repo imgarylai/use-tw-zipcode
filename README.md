@@ -13,7 +13,7 @@ npm install use-tw-zipcode
 
 ```jsx
 import React from "react";
-import useTwZipCode, { cities, districts } from "./use-tw-zip-code";
+import { useTwZipCode, cities, districts } from "use-tw-zipcode";
 
 export default function App() {
   const {
