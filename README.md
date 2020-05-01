@@ -10,7 +10,7 @@ npm install use-tw-zipcode
 
 ## Example
 
-```
+```jsx
 import React from "react";
 import useTwZipCode, { cities, districts } from "./use-tw-zip-code";
 
