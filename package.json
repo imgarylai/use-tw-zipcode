@@ -1,13 +1,17 @@
 {
   "name": "use-tw-zipcode",
   "description": "React hook for getting Taiwan zip code.",
-  "keywords": ["taiwan", "react", "hook"],
+  "keywords": [
+    "taiwan",
+    "react",
+    "hook"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/imgarylai/use-tw-zipcode"
   },
-  "version": "0.1.0",
-  "license" : "MIT",
+  "version": "0.0.0-development",
+  "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
@@ -15,7 +19,8 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {},
   "peerDependencies": {
@@ -31,7 +36,8 @@
     "husky": "^4.2.5",
     "microbundle": "^0.11.0",
     "prettier": "^2.0.5",
-    "react": "^16.13.0"
+    "react": "^16.13.0",
+    "semantic-release": "^17.0.7"
   },
   "husky": {
     "hooks": {
