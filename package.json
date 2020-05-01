@@ -1,0 +1,22 @@
+{
+  "name": "use-tw-zipcode",
+  "version": "0.1.0",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "microbundle": "^0.11.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.0"
+  }
+}
