@@ -8,13 +8,13 @@ const useTwZipCode = () => {
   const [district, setDistrict] = useState<string>(districts[city][0]);
   const zipCode: string = zipCodes[city][district];
 
-  const handleCityChange = (value: string) => {
-    setCity(value);
-    setDistrict(districts[value][0]);
+  const handleCityChange = async (value: string) => {
+    await setCity(value);
+    await setDistrict(districts[value][0]);
   };
 
-  const handleDistrictChange = (value: string) => {
-    setDistrict(value);
+  const handleDistrictChange = async (value: string) => {
+    await setDistrict(value);
   };
 
   return {
