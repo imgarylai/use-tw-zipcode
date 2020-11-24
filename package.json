@@ -45,7 +45,7 @@
     "husky": "4.3.0",
     "microbundle": "0.12.4",
     "prettier": "2.2.0",
-    "react": "16.14.0",
+    "react": "17.0.1",
     "semantic-release": "17.3.0"
   },
   "husky": {
