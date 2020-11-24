@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { cities } from "./data/cities";
-import { districts } from "./data/districts";
-import { zipCodes } from "./data/zipCode";
+import { useState } from 'react';
+import cities from './data/cities';
+import districts from './data/districts';
+import zipCodes from './data/zipCode';
 
 const useTwZipCode = () => {
   const [city, setCity] = useState<string>(cities[0]);
