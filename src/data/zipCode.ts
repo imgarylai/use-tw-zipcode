@@ -1,4 +1,9 @@
-export const zipCodes = {
+interface ZipCodes {
+  [key: string]: {
+    [key: string]: string
+  };
+}
+export const zipCodes: ZipCodes = {
   台北市: {
     中正區: '100',
     大同區: '103',

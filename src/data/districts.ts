@@ -1,4 +1,7 @@
-const districts = {
+interface Districts {
+  [key: string]: string[];
+}
+const districts: Districts = {
   台北市: [
     '中正區',
     '大同區',
