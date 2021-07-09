@@ -8,22 +8,26 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/imgarylai/use-tw-zipcode"
+    "url": "git+https://github.com/imgarylai/use-tw-zipcode"
   },
+  "bugs": {
+    "url": "https://github.com/imgarylai/use-tw-zipcode/issues"
+  },
+  "homepage": "https://github.com/imgarylai/use-tw-zipcode#readme",
+  "author": "Gary Lai <garylai1990@gmail.com>",
   "version": "0.0.0-development",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "lint": "eslint --ext .ts,.tsx ./src",
     "commit": "git-cz",
     "semantic-release": "semantic-release"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": ">= 16.8.0"
   },
@@ -31,6 +35,8 @@
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
     "@commitlint/prompt": "12.1.4",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
     "@types/react": "17.0.11",
     "@typescript-eslint/eslint-plugin": "4.28.2",
     "@typescript-eslint/parser": "4.28.2",
@@ -46,16 +52,57 @@
     "microbundle": "0.13.3",
     "prettier": "2.3.1",
     "react": "17.0.2",
-    "semantic-release": "17.4.4"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
+    "semantic-release": "17.4.4",
+    "typescript": "4.3.5"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        1,
+        "always",
+        100
+      ],
+      "footer-max-line-length": [
+        1,
+        "always",
+        100
+      ]
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "docs/CHANGELOG.md"
+        }
+      ],
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "docs/CHANGELOG.md",
+            "package.json",
+            "package-lock.json"
+          ],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
   }
 }

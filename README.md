@@ -1,7 +1,6 @@
 # use-tw-zipcode
 
 [![npm](https://img.shields.io/npm/v/use-tw-zipcode)](https://www.npmjs.com/package/use-tw-zipcode)
-[![Build Status](https://travis-ci.com/imgarylai/use-tw-zipcode.svg?branch=master)](https://travis-ci.com/imgarylai/use-tw-zipcode)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 ## Intro 簡介
