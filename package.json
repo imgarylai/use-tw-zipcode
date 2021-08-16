@@ -52,7 +52,7 @@
     "microbundle": "0.13.3",
     "prettier": "2.3.1",
     "react": "17.0.2",
-    "semantic-release": "17.4.4",
+    "semantic-release": "17.4.5",
     "typescript": "4.3.5"
   },
   "config": {
