@@ -36,7 +36,7 @@
     "@commitlint/config-conventional": "13.1.0",
     "@commitlint/prompt": "13.1.0",
     "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.1",
+    "@semantic-release/git": "10.0.0",
     "@types/react": "17.0.22",
     "@typescript-eslint/eslint-plugin": "4.31.2",
     "@typescript-eslint/parser": "4.31.2",
@@ -52,7 +52,7 @@
     "microbundle": "0.13.3",
     "prettier": "2.4.1",
     "react": "17.0.2",
-    "semantic-release": "17.4.7",
+    "semantic-release": "18.0.0",
     "typescript": "4.4.3"
   },
   "config": {
