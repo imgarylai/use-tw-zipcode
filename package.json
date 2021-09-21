@@ -15,7 +15,7 @@
   },
   "homepage": "https://github.com/imgarylai/use-tw-zipcode#readme",
   "author": "Gary Lai <garylai1990@gmail.com>",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/index.js",
