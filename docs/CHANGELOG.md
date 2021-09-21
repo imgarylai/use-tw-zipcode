@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/imgarylai/use-tw-zipcode/compare/v2.0.2...v2.0.3) (2021-09-21)
+
+
+### Performance Improvements
+
+* **package:** update dep ([19adc9d](https://github.com/imgarylai/use-tw-zipcode/commit/19adc9d2d27dabc30abe67066a21741ca2017b26))
+
 ## [2.0.2](https://github.com/imgarylai/use-tw-zipcode/compare/v2.0.1...v2.0.2) (2021-09-21)
 
 
