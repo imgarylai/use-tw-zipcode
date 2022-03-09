@@ -1,6 +1,6 @@
 interface ZipCodes {
   [key: string]: {
-    [key: string]: string
+    [key: string]: string;
   };
 }
 export const zipCodes: ZipCodes = {
