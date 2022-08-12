@@ -63,7 +63,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "husky": "8.0.1",
     "jest": "27.5.1",
-    "microbundle": "0.15.0",
+    "microbundle": "0.15.1",
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
