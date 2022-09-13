@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/imgarylai/use-tw-zipcode/compare/v2.0.3...v2.0.4) (2022-09-13)
+
+
+### Bug Fixes
+
+* **security:** security fix for dependencies ([c500abb](https://github.com/imgarylai/use-tw-zipcode/commit/c500abbdbcd07eed7d3f9a7752863c9c1ac1eda8))
+
 ## [2.0.3](https://github.com/imgarylai/use-tw-zipcode/compare/v2.0.2...v2.0.3) (2021-09-21)
 
 ### Performance Improvements
