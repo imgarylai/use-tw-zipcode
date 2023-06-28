@@ -47,7 +47,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.7",
     "@testing-library/react": "13.4.0",
-    "@testing-library/react-hooks": "7.0.2",
+    "@testing-library/react-hooks": "8.0.1",
     "@types/jest": "27.5.2",
     "@types/react": "18.0.26",
     "@typescript-eslint/eslint-plugin": "5.48.0",
