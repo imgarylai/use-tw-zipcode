@@ -1,4 +1,4 @@
-import { renderHook } from '@testing-library/react-hooks';
+import { renderHook } from '@testing-library/react';
 import { useTwZipCode } from '../../src';
 
 test('should return initial city, district and zipcode', () => {

@@ -1,4 +1,4 @@
-import { act, renderHook } from '@testing-library/react-hooks';
+import { renderHook, act } from '@testing-library/react';
 import { useTwZipCode } from '../../src';
 
 test('should handle district change', async () => {
