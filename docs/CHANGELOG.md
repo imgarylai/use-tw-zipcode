@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/imgarylai/use-tw-zipcode/compare/v2.0.4...v2.1.0) (2025-04-10)
+
+
+### Features
+
+* trigger release ([5de9c5e](https://github.com/imgarylai/use-tw-zipcode/commit/5de9c5e339906eb01f349d262e36f220f3d4762b))
+
 ## [2.0.4](https://github.com/imgarylai/use-tw-zipcode/compare/v2.0.3...v2.0.4) (2022-09-13)
 
 
