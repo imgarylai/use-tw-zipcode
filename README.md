@@ -5,11 +5,11 @@
 
 ## Intro 簡介
 
-可以簡單的需要製作台灣縣市、行政區下拉式選單，並取得郵遞區號，只處理邏輯的部分，所以可以很簡單的用於各種 CSS 版型。
+可以簡單地製作台灣縣市、行政區下拉式選單，並取得郵遞區號。本套件只處理邏輯的部分，所以可以很簡單地應用於各種 CSS 版型。
 
-Taiwanese zip code, 3 digits style, is determined by two factors, city and district. It is usually not necessary to ask users to fill the zip code by themselves. It is nicer if you are building an interface capturing zip code automatically once they fill in the field, city, and district. And a dropdown menu is commonly used for this scenario.
+Taiwanese zip code (3 digits) is determined by two factors: city and district. It is usually not necessary to ask users to fill in the zip code manually. It's more user-friendly if you can automatically capture the zip code once they select their city and district. A dropdown menu is commonly used for this scenario.
 
-This library aims to help you create a user-friendly dropdown menu without any CSS/style framework dependency by using React hook. You can find examples below. Let's build an excellent user interface together! 🙌🏻
+This library helps you create a user-friendly dropdown menu without any CSS/style framework dependency by using React hooks. You can find examples below. Let's build an excellent user interface together! 🙌🏻
 
 ## Installation 安裝
 
@@ -47,14 +47,8 @@ export default function App() {
 }
 ```
 
-## Other examples 其他範例
-
-與 [MATERIAL-UI](https://material-ui.com/) 一起使用
-
-This example shows how to work with CSS framework. In this example, it comes with [MATERIAL-UI](https://material-ui.com/).
-
-[![Edit use-tw-zipcode](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/use-tw-zipcode-w5y6q?autoresize=1&fontsize=14&hidenavigation=1&theme=dark)
-
 ## Live Demo
 
-[https://use-tw-zipcode.now.sh/](https://use-tw-zipcode.now.sh/)
+[https://use-tw-zipcode.vercel.app/](https://use-tw-zipcode.vercel.app/)
+
+Demo Source Code: [https://github.com/imgarylai/use-tw-zipcode-vercel](https://github.com/imgarylai/use-tw-zipcode-vercel)
