@@ -1,6 +1,6 @@
 {
   "name": "use-tw-zipcode",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "React hook for getting Taiwan zip code.",
   "license": "MIT",
   "author": "Gary Lai <garylai1990@gmail.com>",
