@@ -2,32 +2,24 @@
   "name": "use-tw-zipcode",
   "version": "2.1.0",
   "description": "React hook for getting Taiwan zip code.",
-  "keywords": [
-    "taiwan",
-    "react",
-    "hook"
-  ],
+  "license": "MIT",
+  "author": "Gary Lai <garylai1990@gmail.com>",
   "homepage": "https://github.com/imgarylai/use-tw-zipcode#readme",
-  "bugs": {
-    "url": "https://github.com/imgarylai/use-tw-zipcode/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imgarylai/use-tw-zipcode"
   },
-  "license": "MIT",
-  "author": "Gary Lai <garylai1990@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/imgarylai/use-tw-zipcode/issues"
+  },
   "main": "dist/index.js",
-  "unpkg": "dist/index.umd.js",
   "module": "dist/index.module.js",
-  "source": "src/index.ts",
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "microbundle",
     "commit": "git-cz",
     "dev": "microbundle watch",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "prepare": "husky install",
+    "prepare": "husky",
     "semantic-release": "semantic-release",
     "test": "jest --coverage"
   },
@@ -35,6 +27,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "types": "dist/index.d.ts",
+  "peerDependencies": {
+    "react": ">= 16.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -63,14 +59,46 @@
     "husky": "^9.0.11",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "30.2.0",
+    "lint-staged": "16.2.7",
     "microbundle": "^0.15.1",
     "prettier": "^3.2.5",
+    "prettier-package-json": "2.8.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "semantic-release": "^25.0.0",
     "typescript": "^5.4.2"
   },
-  "peerDependencies": {
-    "react": ">= 16.8.0"
-  }
+  "keywords": [
+    "hook",
+    "react",
+    "taiwan"
+  ],
+  "lint-staged": {
+    "src/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "jest --bail --findRelatedTests"
+    ],
+    "tests/**/*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "jest --bail --findRelatedTests"
+    ],
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.config.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ],
+    "package.json": [
+      "prettier-package-json --write"
+    ]
+  },
+  "source": "src/index.ts",
+  "unpkg": "dist/index.umd.js"
 }
