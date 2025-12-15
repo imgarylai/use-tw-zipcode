@@ -18,7 +18,7 @@
     "build": "microbundle",
     "commit": "git-cz",
     "dev": "microbundle watch",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint": "eslint .",
     "prepare": "husky",
     "semantic-release": "semantic-release",
     "test": "jest",
