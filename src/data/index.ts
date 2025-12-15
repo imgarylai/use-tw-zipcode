@@ -1,5 +1,3 @@
-import cities from './cities';
-import districts from './districts';
-import zipCodes from './zipCode';
-
-export default { cities, districts, zipCodes };
+export { default as cities } from './cities';
+export { default as districts } from './districts';
+export { default as zipCodes } from './zipCode';
