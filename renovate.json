@@ -3,6 +3,10 @@
   "automergeStrategy": "rebase",
   "extends": ["config:base"],
   "schedule": ["every weekend"],
+  "rangeStrategy": "pin",
+  "pin": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "groupName": "node",
