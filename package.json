@@ -21,7 +21,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "husky",
     "semantic-release": "semantic-release",
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "type-check": "tsc --noEmit"
   },
   "config": {
     "commitizen": {
