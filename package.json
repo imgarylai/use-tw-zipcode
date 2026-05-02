@@ -45,9 +45,9 @@
     "react": "19.2.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.5.2",
-    "@commitlint/config-conventional": "20.5.0",
-    "@commitlint/prompt": "20.5.2",
+    "@commitlint/cli": "20.5.3",
+    "@commitlint/config-conventional": "20.5.3",
+    "@commitlint/prompt": "20.5.3",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "12.0.6",
@@ -55,8 +55,8 @@
     "@types/jest": "30.0.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@typescript-eslint/eslint-plugin": "8.59.0",
-    "@typescript-eslint/parser": "8.59.0",
+    "@typescript-eslint/eslint-plugin": "8.59.1",
+    "@typescript-eslint/parser": "8.59.1",
     "@vitejs/plugin-react": "6.0.1",
     "commitizen": "4.3.1",
     "cz-conventional-changelog": "3.3.0",
