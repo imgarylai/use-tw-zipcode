@@ -1,3 +1,9 @@
+## [2.1.2](https://github.com/imgarylai/use-tw-zipcode/compare/v2.1.1...v2.1.2) (2026-06-11)
+
+### Bug Fixes
+
+- **tsconfig:** silence typescript deprecation warnings ([83f3fd1](https://github.com/imgarylai/use-tw-zipcode/commit/83f3fd1be1130cfc71cebfa77c1d94ad5e7eec61))
+
 ## [2.1.1](https://github.com/imgarylai/use-tw-zipcode/compare/v2.1.0...v2.1.1) (2025-12-15)
 
 ### Bug Fixes
