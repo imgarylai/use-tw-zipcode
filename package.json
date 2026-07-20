@@ -78,6 +78,10 @@
     "react",
     "taiwan"
   ],
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=10"
+  },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
       "oxlint --fix",
@@ -102,5 +106,6 @@
     "package.json": [
       "prettier-package-json --write"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.34.5"
 }

@@ -1,16 +1,18 @@
 {
   "automerge": true,
   "automergeStrategy": "rebase",
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "schedule": ["every weekend"],
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 2,
   "rangeStrategy": "pin",
   "pin": {
     "enabled": true
   },
   "packageRules": [
     {
-      "groupName": "node",
-      "matchPackageNames": ["node"],
+      "description": "Do not chase engines minimums or the pinned pnpm version",
+      "matchDepTypes": ["engines", "packageManager"],
       "enabled": false
     },
     {
