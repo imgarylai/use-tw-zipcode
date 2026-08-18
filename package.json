@@ -42,7 +42,7 @@
   },
   "types": "dist/index.d.ts",
   "peerDependencies": {
-    "react": "19.2.7"
+    "react": ">=16.8.0"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.1",
