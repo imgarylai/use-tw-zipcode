@@ -3,6 +3,8 @@
 [![npm](https://img.shields.io/npm/v/use-tw-zipcode)](https://www.npmjs.com/package/use-tw-zipcode)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
+**[線上 Demo](https://laigary.com/labs/use-tw-zipcode)** — 直接在瀏覽器裡選縣市，看郵遞區號跳出來。
+
 ## Intro 簡介
 
 可以簡單地製作台灣縣市、行政區下拉式選單，並取得郵遞區號。本套件只處理邏輯的部分，所以可以很簡單地應用於各種 CSS 版型。
@@ -47,8 +49,8 @@ export default function App() {
 }
 ```
 
-## Live Demo
+## Live Demo 線上 Demo
 
-[https://use-tw-zipcode.vercel.app/](https://use-tw-zipcode.vercel.app/)
+[https://laigary.com/labs/use-tw-zipcode](https://laigary.com/labs/use-tw-zipcode)
 
-Demo Source Code: [https://github.com/imgarylai/use-tw-zipcode-vercel](https://github.com/imgarylai/use-tw-zipcode-vercel)
+The demo runs the published package in the browser; the interactive options mirror the hook's own API.

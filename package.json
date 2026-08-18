@@ -4,7 +4,7 @@
   "description": "React hook for getting Taiwan zip code.",
   "license": "MIT",
   "author": "Gary Lai <garylai1990@gmail.com>",
-  "homepage": "https://github.com/imgarylai/use-tw-zipcode#readme",
+  "homepage": "https://laigary.com/labs/use-tw-zipcode",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imgarylai/use-tw-zipcode"
