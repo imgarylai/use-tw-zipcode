@@ -1,3 +1,9 @@
+## [2.1.3](https://github.com/imgarylai/use-tw-zipcode/compare/v2.1.2...v2.1.3) (2026-08-18)
+
+### Bug Fixes
+
+- **peer-deps:** widen react peer range to >=16.8.0 ([e7a327d](https://github.com/imgarylai/use-tw-zipcode/commit/e7a327d77624a2dfe6790f90e25db9d40dbbf13e))
+
 ## [2.1.2](https://github.com/imgarylai/use-tw-zipcode/compare/v2.1.1...v2.1.2) (2026-06-11)
 
 ### Bug Fixes
